@@ -111,7 +111,7 @@ if (EIGEN_FOUND)
 endif (EIGEN_FOUND)
 
 # Use C++14 as the standard for compilation
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 
 # Use a larger inlining threshold for Clang, since it hobbles Eigen,
 # resulting in an unreasonably slow version of the blas routines. The
